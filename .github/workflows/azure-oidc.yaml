@@ -14,6 +14,7 @@ jobs:
   # Authentication is valid in this job scope only.
   Azure-OIDC:
     runs-on: windows-latest
+    environment: Vivek_Jindal_RG
     steps:
 
       - name: OIDC login to Azure Public Cloud with AzPowershell
